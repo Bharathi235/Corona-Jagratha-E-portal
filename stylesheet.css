@@ -1,0 +1,55 @@
+header{
+    background-image:url(homeimg.jpeg);
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+}
+.title{
+   color:black;
+    font-size: 63px;
+    position: fixed;
+    top:50%;
+    left:40%;
+transform: translate(-60%,-70%)
+}
+.main{
+    font-size: 50px;
+    font-family: fantasy;
+    mix-blend-mode: exclusion;
+    text-align: justify;
+}
+ul{
+    float:right;
+  list-style-type: none;
+    margin-top:200px;
+}
+ul li a{
+    text-decoration:none;
+    color: white;
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+/*************************about health info********/
+.about{
+    font-size:20px;
+    font-style: oblique;
+    text-align: justify-all; 
+}
+img{
+    float: right;
+    width: 500px;
+}
+.style1{
+   font: 30px; 
+}
+.about2{
+    font-size:20px;
+    font-style: oblique;
+    text-align: justify-all; 
+}
